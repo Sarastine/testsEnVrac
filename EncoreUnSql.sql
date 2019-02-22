@@ -1,0 +1,1 @@
+INSERT INTO customers ([name], [firstName], [birthDate], [email], [budget], [id_typeProperty])

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profilBroker - My ASP.NET Application</title>
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap-4.1.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/caillouGlobal.css">
+    <!--<link href="/Content/bootstrapNotObsolete.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/caillouGlobal.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/modernizr-2.6.2.js"></script>-->
+</head>
+<body>
+    <h1 class="text-center">Agenda</h1>
+    
+
+    <div class="container body-content">
+        
+
+<div id="globalDiv" class="container">
+    <h2>Détails</h2>
+    <div id="listBrokersArea" class="area">
+        
+            <div class="row">
+                <span class="col-12">Nom :</span>
+                <p class="offset-1 col-11">
+                    <span class="d-flex" style="height: 31px;">HDD</span>
+                    <input type="text" name="JeSaisPas" style="height: 31px;" value="HDD" class="d-none" />
+                </p>
+            </div>
+            <div class="row">
+                <span class="col-12">Prénom :</span>
+                <p class="offset-1 col-11">
+                    <span class="d-flex" style="height: 31px;">SSD</span>
+                    <input type="text" name="JeSaisPas" style="height: 31px;" value="SSD" class="d-none" />
+                </p>
+            </div>
+            <div class="row">
+                <span class="col-12">Adresse :</span>
+                <p class="offset-1 col-11">
+                    <span class="d-flex" style="height: 31px;">Water@cooling</span>
+                    <input type="text" name="JeSaisPas" style="height: 31px;" value="Water@cooling" class="d-none" />
+                </p>
+            </div>
+            <div class="row">
+                <span class="col-12">Numéro :</span>
+                <p class="offset-1 col-11">
+                    <span class="d-flex" style="height: 31px;">USB-C</span>
+                    <input type="text" name="JeSaisPas" style="height: 31px;" value="USB-C" class="d-none" />
+                </p>
+            </div>
+        
+    </div>
+    <div class="row">
+        <a class="btn btn-info mr-3" href="/broker/listBrokers?Length=0">Retour</a>
+        <a id="modify" class="btn btn-warning mr-3" href="#" role="button">Modifier</a>
+        <button class="btn btn-danger d-none">Enregistrer</button>
+    </div>
+</div>
+        <hr /><!--C'est la ligne de séparation, Caillou !-->
+        <footer>
+            <p>&copy; 2019 - My ASP.NET Application</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/profilBroker.js"></script>
+    <!--<script src="/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>-->
+</body>
+</html>

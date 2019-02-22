@@ -1,0 +1,36 @@
+body {
+	background-color: #333;
+	color: #CCC;
+}
+
+h1 {
+	color: #0A0;
+}
+
+#sudokuGrid, .square, .cell {
+	border-color: #888;
+	border-style: solid;
+	border-width: 1px;
+}
+#sudokuGrid, .square {
+	border-width: 2px;
+}
+#sudokuGrid {
+	max-width: 400px;
+}
+
+.cell {
+	min-width: 40px;
+	min-height: 40px;
+	background-color: transparent;
+	color: #EEE;
+	font-family: 'courier new';
+	font-size: 1.2em;
+}
+
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
